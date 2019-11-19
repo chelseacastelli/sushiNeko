@@ -11,6 +11,7 @@ import SpriteKit
 class GameScene: SKScene {
     
     var sushiBasePiece: SushiPiece!
+    var character: Character!
 
     enum Side {
         case left, right, none
@@ -21,6 +22,7 @@ class GameScene: SKScene {
         
         /* Connect game objects */
         sushiBasePiece = (childNode(withName: "sushiBasePiece") as! SushiPiece)
+        character = (childNode(withName: "character") as! Character)
         
         /* Setup chopstick connections */
         sushiBasePiece.connectChopsticks()

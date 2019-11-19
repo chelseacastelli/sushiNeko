@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		694EB6382384ACE100211226 /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694EB6372384ACE100211226 /* SushiPiece.swift */; };
+		694EB63A2384B0B300211226 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694EB6392384B0B300211226 /* Character.swift */; };
 		69DEABF92373A8870063F14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DEABF82373A8870063F14B /* AppDelegate.swift */; };
 		69DEABFB2373A8870063F14B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69DEABFA2373A8870063F14B /* GameScene.sks */; };
 		69DEABFD2373A8870063F14B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69DEABFC2373A8870063F14B /* Actions.sks */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		694EB6372384ACE100211226 /* SushiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
+		694EB6392384B0B300211226 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		69DEABF52373A8870063F14B /* SushiNeko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiNeko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DEABF82373A8870063F14B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69DEABFA2373A8870063F14B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				69DEABF82373A8870063F14B /* AppDelegate.swift */,
 				69DEABFA2373A8870063F14B /* GameScene.sks */,
 				69DEABFC2373A8870063F14B /* Actions.sks */,
+				694EB6392384B0B300211226 /* Character.swift */,
 				694EB6372384ACE100211226 /* SushiPiece.swift */,
 				69DEABFE2373A8870063F14B /* GameScene.swift */,
 				69DEAC002373A8870063F14B /* GameViewController.swift */,
@@ -163,6 +166,7 @@
 				69DEABFF2373A8870063F14B /* GameScene.swift in Sources */,
 				69DEAC012373A8870063F14B /* GameViewController.swift in Sources */,
 				69DEABF92373A8870063F14B /* AppDelegate.swift in Sources */,
+				694EB63A2384B0B300211226 /* Character.swift in Sources */,
 				694EB6382384ACE100211226 /* SushiPiece.swift in Sources */,
 				69DEAC152373A9000063F14B /* MSButtonNode.swift in Sources */,
 			);
