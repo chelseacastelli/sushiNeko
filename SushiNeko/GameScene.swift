@@ -20,9 +20,10 @@ class GameScene: SKScene {
         super.didMove(to: view)
         
         /* Connect game objects */
-        sushiBasePiece = childNode(withName: "sushiBasePiece") as! SushiPiece
+        sushiBasePiece = (childNode(withName: "sushiBasePiece") as! SushiPiece)
         
         /* Setup chopstick connections */
         sushiBasePiece.connectChopsticks()
     }
 }
+ 

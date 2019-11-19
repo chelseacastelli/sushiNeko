@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6949355B2384A055007B8417 /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6949355A2384A055007B8417 /* SushiPiece.swift */; };
+		694EB6382384ACE100211226 /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694EB6372384ACE100211226 /* SushiPiece.swift */; };
 		69DEABF92373A8870063F14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DEABF82373A8870063F14B /* AppDelegate.swift */; };
 		69DEABFB2373A8870063F14B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69DEABFA2373A8870063F14B /* GameScene.sks */; };
 		69DEABFD2373A8870063F14B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69DEABFC2373A8870063F14B /* Actions.sks */; };
@@ -17,11 +17,10 @@
 		69DEAC062373A8890063F14B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DEAC052373A8890063F14B /* Assets.xcassets */; };
 		69DEAC092373A8890063F14B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DEAC072373A8890063F14B /* LaunchScreen.storyboard */; };
 		69DEAC152373A9000063F14B /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DEAC142373A9000063F14B /* MSButtonNode.swift */; };
-		69DEAC182373A93B0063F14B /* sfx_swipe.caf in Resources */ = {isa = PBXBuildFile; fileRef = 69DEAC172373A93B0063F14B /* sfx_swipe.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6949355A2384A055007B8417 /* SushiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = SOURCE_ROOT; };
+		694EB6372384ACE100211226 /* SushiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
 		69DEABF52373A8870063F14B /* SushiNeko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiNeko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DEABF82373A8870063F14B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69DEABFA2373A8870063F14B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -33,7 +32,6 @@
 		69DEAC082373A8890063F14B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69DEAC0A2373A8890063F14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69DEAC142373A9000063F14B /* MSButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
-		69DEAC172373A93B0063F14B /* sfx_swipe.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_swipe.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +68,8 @@
 				69DEABF82373A8870063F14B /* AppDelegate.swift */,
 				69DEABFA2373A8870063F14B /* GameScene.sks */,
 				69DEABFC2373A8870063F14B /* Actions.sks */,
+				694EB6372384ACE100211226 /* SushiPiece.swift */,
 				69DEABFE2373A8870063F14B /* GameScene.swift */,
-				6949355A2384A055007B8417 /* SushiPiece.swift */,
 				69DEAC002373A8870063F14B /* GameViewController.swift */,
 				69DEAC022373A8870063F14B /* Main.storyboard */,
 				69DEAC052373A8890063F14B /* Assets.xcassets */,
@@ -85,7 +83,6 @@
 		69DEAC162373A93B0063F14B /* SFX */ = {
 			isa = PBXGroup;
 			children = (
-				69DEAC172373A93B0063F14B /* sfx_swipe.caf */,
 			);
 			path = SFX;
 			sourceTree = SOURCE_ROOT;
@@ -149,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				69DEAC042373A8870063F14B /* Main.storyboard in Resources */,
-				69DEAC182373A93B0063F14B /* sfx_swipe.caf in Resources */,
 				69DEABFB2373A8870063F14B /* GameScene.sks in Resources */,
 				69DEAC062373A8890063F14B /* Assets.xcassets in Resources */,
 				69DEAC092373A8890063F14B /* LaunchScreen.storyboard in Resources */,
@@ -167,7 +163,7 @@
 				69DEABFF2373A8870063F14B /* GameScene.swift in Sources */,
 				69DEAC012373A8870063F14B /* GameViewController.swift in Sources */,
 				69DEABF92373A8870063F14B /* AppDelegate.swift in Sources */,
-				6949355B2384A055007B8417 /* SushiPiece.swift in Sources */,
+				694EB6382384ACE100211226 /* SushiPiece.swift in Sources */,
 				69DEAC152373A9000063F14B /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
