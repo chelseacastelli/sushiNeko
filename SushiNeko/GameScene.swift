@@ -13,9 +13,26 @@ class GameScene: SKScene {
     var sushiBasePiece: SushiPiece!
     var character: Character!
     var playButton: MSButtonNode!
+    var healthBar: SKSpriteNode!
+    var scoreLabel: SKLabelNode!
     
     /* Game management */
     var state: GameState = .title
+    
+    var health: CGFloat = 1.0 {
+      didSet {
+        /* Cap Health */
+        if health > 1.0 { health = 1.0 }
+          /* Scale health bar between 0.0 -> 1.0 e.g 0 -> 100% */
+          healthBar.xScale = health
+      }
+    }
+    
+    var score: Int = 0 {
+      didSet {
+        scoreLabel.text = String(score)
+      }
+    }
     
     /* Sushi tower array */
     var sushiTower: [SushiPiece] = []
@@ -54,6 +71,10 @@ class GameScene: SKScene {
         
         /* Randomize tower to just outside of the screen */
         addRandomPieces(total: 10)
+        
+        healthBar = (childNode(withName: "healthBar") as! SKSpriteNode)
+        
+        scoreLabel = (childNode(withName: "scoreLabel") as! SKLabelNode)
         
     }
     
@@ -145,6 +166,11 @@ class GameScene: SKScene {
                 /* No need to continue as player is dead */
                 return
             }
+            
+            /* Increment Health */
+            health += 0.1
+            /* Increment Score */
+            score += 1
             /* Remove from sushi tower array */
             sushiTower.removeFirst()
             /* Animate the punched sushi piece */
@@ -152,6 +178,7 @@ class GameScene: SKScene {
             /* Add a new sushi piece to the top of the sushi tower */
             addRandomPieces(total: 1)
         }
+    
     }
     
     func moveTowerDown() {
@@ -165,6 +192,16 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         moveTowerDown()
+        
+        /* Called before each frame is rendered */
+        if state != .playing { return }
+
+        /* Decrease Health */
+        health -= 0.01
+        /* Has the player ran out of health? */
+        if health < 0 {
+            gameOver()
+        }
     }
     
     func gameOver() {
