@@ -13,6 +13,8 @@ class SushiPiece: SKSpriteNode {
     /* Chopsticks objects */
     var rightChopstick: SKSpriteNode!
     var leftChopstick: SKSpriteNode!
+
+   
     
     /* Sushi type */
     var side: GameScene.Side = .none {
