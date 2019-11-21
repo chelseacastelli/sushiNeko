@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		694EB6382384ACE100211226 /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694EB6372384ACE100211226 /* SushiPiece.swift */; };
 		694EB63A2384B0B300211226 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694EB6392384B0B300211226 /* Character.swift */; };
+		69C24AD32387488800E87FC9 /* AnimationActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69C24AD22387488800E87FC9 /* AnimationActions.sks */; };
 		69DEABF92373A8870063F14B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DEABF82373A8870063F14B /* AppDelegate.swift */; };
 		69DEABFB2373A8870063F14B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69DEABFA2373A8870063F14B /* GameScene.sks */; };
 		69DEABFD2373A8870063F14B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69DEABFC2373A8870063F14B /* Actions.sks */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		694EB6372384ACE100211226 /* SushiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
 		694EB6392384B0B300211226 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		69C24AD22387488800E87FC9 /* AnimationActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AnimationActions.sks; sourceTree = "<group>"; };
 		69DEABF52373A8870063F14B /* SushiNeko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiNeko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DEABF82373A8870063F14B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69DEABFA2373A8870063F14B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			children = (
 				69DEAC162373A93B0063F14B /* SFX */,
 				69DEABF82373A8870063F14B /* AppDelegate.swift */,
+				69C24AD22387488800E87FC9 /* AnimationActions.sks */,
 				69DEABFA2373A8870063F14B /* GameScene.sks */,
 				69DEABFC2373A8870063F14B /* Actions.sks */,
 				694EB6392384B0B300211226 /* Character.swift */,
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C24AD32387488800E87FC9 /* AnimationActions.sks in Resources */,
 				69DEAC042373A8870063F14B /* Main.storyboard in Resources */,
 				69DEABFB2373A8870063F14B /* GameScene.sks in Resources */,
 				69DEAC062373A8890063F14B /* Assets.xcassets in Resources */,
