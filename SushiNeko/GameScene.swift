@@ -75,7 +75,6 @@ class GameScene: SKScene {
         healthBar = (childNode(withName: "healthBar") as! SKSpriteNode)
         
         scoreLabel = (childNode(withName: "scoreLabel") as! SKLabelNode)
-        
     }
     
     /**
